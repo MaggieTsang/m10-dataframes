@@ -2,12 +2,13 @@
 
 # Create a vector of the number of points the Seahawks scored the first 4 games of last season
 # Hint: (google "Seahawks scores 2016")
+first.games <- c(31,31,20,6)
 
 # Create a vector of the number of points the Seahawks have allowed to be scored against them in the first 4 games
-
+scored.against <- c(24,25,25,6)
 
 # Combine your two vectors into a dataframe
-
+my.data <- data.frame(first.games, scored.against)
 
 # Create a new column "diff" that is the difference in points
 
